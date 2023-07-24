@@ -195,17 +195,19 @@ span{
 }
 
 .about-content h2{
-    text-align: left;
-    line-height: 1.2;
+    text-align: center;
+    line-height: 1.6;
 }
 
 .about-content h3{
     font-size: 22px;
+    text-align: center;
 }
 
 .about-content p{
     font-size: 14px;
     margin: 16px 0 24px;
+    text-align: center;
 }
 
 
