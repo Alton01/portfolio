@@ -19,10 +19,10 @@
 
 }
 
-/*html{
+html{
     font-size: 62.5%;
     overflow-x: hidden;
-} */
+}
 
 body{
     background: var(--bg-color);
@@ -81,6 +81,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .home-content{
@@ -182,6 +183,7 @@ span{
     align-items: center;
     gap: 16px;
     background: var(--second-bg-color);
+    width: 100%;
 }
 
 .about-img img{
@@ -260,11 +262,15 @@ span{
     margin: 8px 0 24px;
 }
 
+.services{
+    width: 100%;
+}
+
 /* portfolio section */
 
 .portfolio{
     background: var(--second-bg-color);
-
+    width: 100%;
 }
 
 .portfolio h2{
@@ -345,6 +351,7 @@ span{
 
 .contact{
     min-height: auto;
+    width: 100%;
 }
 
 .contact h2{
@@ -399,6 +406,7 @@ span{
     flex-wrap: wrap;
     padding: 16px 10px;
     background: var(--second-bg-color);
+    width: 100%;
 
 }
 
@@ -551,9 +559,9 @@ span{
 }
 
 @media (max-width: 450px) {
-    /*html{
+    html{
         font-size: 40%;
-    } */
+    } 
 
     .contact form .input-box input{
         width: 100%;
