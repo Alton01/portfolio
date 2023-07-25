@@ -19,10 +19,10 @@
 
 }
 
-html{
+/*html{
     font-size: 62.5%;
     overflow-x: hidden;
-}
+} */
 
 body{
     background: var(--bg-color);
@@ -33,7 +33,7 @@ body{
 
 section{
    min-height: 100vh;
-   padding: 80px 9% 16px;
+   padding: 80px 16px 16px;
 }
 
 .header{
@@ -41,7 +41,7 @@ section{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 15px 9%;
+    padding: 15px 15px;
     background: var(--bg-color);
     display: flex;
     justify-content: space-between;
@@ -397,7 +397,7 @@ span{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 16px 9%;
+    padding: 16px 10px;
     background: var(--second-bg-color);
 
 }
@@ -435,11 +435,11 @@ span{
 
 @media (max-width: 991px) {
    .header{
-    padding: 16px 3%;
+    padding: 16px 10px;
    }
 
    section{
-    padding: 80px 3% 16px;
+    padding: 80px 10px 16px;
    }
 
    .services{
@@ -459,7 +459,7 @@ span{
    }
 
    .footer{
-        padding: 16px 3%;
+        padding: 16px 10px;
    }
 }
 
@@ -476,7 +476,7 @@ span{
         top: 100%;
         left: 0;
         width: 100%;
-        padding: 8px 3%;
+        padding: 8px 10px;
         background: var(--bg-color);
         border-top: 1px solid rgba(0, 0, 0, .2);
         box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
@@ -551,9 +551,9 @@ span{
 }
 
 @media (max-width: 450px) {
-    html{
+    /*html{
         font-size: 40%;
-    }
+    } */
 
     .contact form .input-box input{
         width: 100%;
