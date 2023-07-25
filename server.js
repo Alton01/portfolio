@@ -59,7 +59,7 @@ menuIcon.onclick = () => {
 
     ScrollReveal().reveal('.home-content, .heading', { origin: 'left'});
     ScrollReveal().reveal('.home-img, .about-img', { origin: 'right'});
-    ScrollReveal().reveal('.services-container, .portfolio-box, .about-content, .contact form', { origin: 'bottom'});
+    ScrollReveal().reveal('.services-box, .portfolio-box, .about-content, .contact form', { origin: 'bottom'});
 
 
 
