@@ -41,7 +41,7 @@ section{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 15px 15px;
+    padding: 15px 9%;
     background: var(--bg-color);
     display: flex;
     justify-content: space-between;
@@ -81,7 +81,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 .home-content{
@@ -92,7 +91,6 @@ section{
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 16px;
-    text-align: center;
 }
 
 .home-content h3:nth-of-type(2){
@@ -108,7 +106,6 @@ span{
     font-weight: 600;
     line-height: 1.3;
     margin-bottom: 16px;
-    text-align: center;
 }
 
 .home-img img{
@@ -127,9 +124,6 @@ span{
         transform: translateY(0);
     }
 }
-
-
-
 
 
 .home-content p{
@@ -183,7 +177,6 @@ span{
     align-items: center;
     gap: 16px;
     background: var(--second-bg-color);
-    width: 100%;
 }
 
 .about-img img{
@@ -202,19 +195,17 @@ span{
 }
 
 .about-content h2{
-    text-align: center;
+    text-align: left;
     line-height: 1.6;
 }
 
 .about-content h3{
     font-size: 22px;
-    text-align: center;
 }
 
 .about-content p{
     font-size: 14px;
     margin: 16px 0 24px;
-    text-align: center;
 }
 
 /*services section*/
@@ -262,15 +253,10 @@ span{
     margin: 8px 0 24px;
 }
 
-.services{
-    width: 100%;
-}
-
 /* portfolio section */
 
 .portfolio{
     background: var(--second-bg-color);
-    width: 100%;
 }
 
 .portfolio h2{
@@ -319,6 +305,8 @@ span{
     transition: .5s ease;
 }
 
+/* use translate y property to hide and reveal thetext on box elements */
+
 .portfolio-box:hover .portfolio-layer{
     transform: translateY(0);
 }
@@ -351,7 +339,6 @@ span{
 
 .contact{
     min-height: auto;
-    width: 100%;
 }
 
 .contact h2{
@@ -360,7 +347,7 @@ span{
 
 .contact form{
     min-width: 250px;
-    max-width: 700px;
+    max-width: 550px;
     margin: 8px auto;
     text-align: center;
     margin-bottom: 24px;
@@ -407,8 +394,6 @@ span{
     flex-wrap: wrap;
     padding: 16px 10px;
     background: var(--second-bg-color);
-    width: 100%;
-
 }
 
 .footer-text p{

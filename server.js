@@ -24,10 +24,8 @@ window.onscroll = () => {
                 links.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
-
         };
     });
-
 
 /* sticky navbar */
 
@@ -45,10 +43,11 @@ window.onscroll = () => {
 
 /* scroll reveal functionality gotten from scrollrevealjs.org*/
 
-/*change reset to false if you do not want the scrollreveal property to happen more than once */
+/*change reset to false if you do not want the scrollreveal property to happen more than once. 
+setting it to falsealso correctsthewrong alignment on page */
 
 ScrollReveal({
-        reset: true,
+        reset: false,
         distance: '80px',
         duration: 2000,
         delay: 200
