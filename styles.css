@@ -110,6 +110,7 @@ span{
 
 .home-img img{
     width: 25vw;
+    margin-left: 20px;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -502,6 +503,7 @@ span{
     .home-img img {
         width: 70vw;
         margin-top: 40px;
+        margin-left: 0;
     }
 
     .about{
