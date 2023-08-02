@@ -66,7 +66,7 @@ ScrollReveal().reveal('.services-box, .portfolio-box, .about-content, .contact f
     /* this is for typed.js typing functionality */
 
 const typed = new Typed('.multiple-text', {
-        strings: ['Full-Stack Developer', 'IT Operator', 'No-Code Developer', 'Data Analyst'],
+        strings: ['Full-Stack Developer', 'IT Specialist', 'No-Code Developer', 'Database Manager'],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
