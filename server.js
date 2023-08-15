@@ -66,9 +66,39 @@ ScrollReveal().reveal('.services-box, .portfolio-box, .about-content, .contact f
     /* this is for typed.js typing functionality */
 
 const typed = new Typed('.multiple-text', {
-        strings: ['Full-Stack Developer', 'IT Specialist', 'No-Code Developer', 'Database Manager'],
+        strings: ['Full-Stack Developer', 'MERN-Stack Developer', 'IT Expert', 'No-Code Developer', 'Database Manager'],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
         loop: true
 });
+
+
+
+//////////////////////FOR SENDING EMAIL/////////////////////
+
+function sendMail(){
+    var params = {
+        name: document.getElementById("name").value ,
+        email: document.getElementById("email").value ,
+        number: document.getElementById("number").value ,
+        subject: document.getElementById("subject").value ,
+        message: document.getElementById("message").value ,
+    };
+    const serviceID = "service_yuulu6v";
+    const templateID = "template_k53y3yw";
+
+
+    emailjs.send(serviceID, templateID, params)
+    .then((res) =>{
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("number").value = "";
+        document.getElementById("subject").value = "";
+        document.getElementById("message").value = "";
+        console.log(res);
+        alert ("Your message was successfully sent!!!");
+    })
+    .catch((err) => console.log(err));
+    }
+
