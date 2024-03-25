@@ -46,20 +46,20 @@ window.onscroll = () => {
 /*change reset to false if you do not want the scrollreveal property to happen more than once. 
 setting it to falsealso correctsthewrong alignment on page */
 
-ScrollReveal({
+/* ScrollReveal({
         reset: false,
         distance: '80px',
         duration: 2000,
         delay: 200
-});
+}); */
 
 
 /* this is used to target sections within page with scroll functionality  and directions of scroll*/
 
-ScrollReveal().reveal('.home-content', { origin: 'left' });
+/* ScrollReveal().reveal('.home-content', { origin: 'left' });
 ScrollReveal().reveal('.heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .about-img', { origin: 'right'});
-ScrollReveal().reveal('.services-box, .portfolio-box, .about-content, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.services-box, .portfolio-box, .about-content, .contact form', { origin: 'bottom' }); */
 
 
 
